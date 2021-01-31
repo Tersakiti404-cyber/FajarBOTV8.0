@@ -92,14 +92,14 @@ const { limit } = require('./database/menu/limit')
 // Load Vcard Contact
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:ANKER\n' //NAMA LU
+            + 'FN:FAJAR ALFARIZI\n' //NAMA LU
             + 'ORG:Owner Bot;\n' // NAMA CONTACT OWNER
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n' // NOMER OWNER
+            + 'TEL;type=CELL;type=VOICE;waid=6281333782061:+62 813-3378-2061\n' // NOMER OWNER
             + 'END:VCARD'
 prefix = '#'//PREFIX BOT
 blocked = ['6283806369677']//NOMER BLOCK
 limitawal = '50'
-cr = '*BOT WHATSAPP*'
+cr = '*𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 WhatsApp*'
 
 // Functions
 const getLevelingXp = (userId) => {
@@ -392,7 +392,7 @@ async function starts() {
         		const bisakah = ['Bisa','Tidak Bisa','Bisa Jadi','Kurang yakin','Pasti Bisa','Kaga Bakal Bisa']
 		        const kapankah = ['1 Hari Lagi','2 Minggu Lagi','1 Bulan Lagi','1 Tahun Lagi','3 Hari Lagi','1 Minggu Lagi','4 Bulan Lagi','3 Tahun Lagi','20 Tahun Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["6281368646011@s.whatsapp.net"] // Nomer Owner
+			const ownerNumber = ["6281333782061@s.whatsapp.net"] // Nomer Owner
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -409,7 +409,7 @@ async function starts() {
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '6281368646011@s.whatsapp.net'//Nomer Owner
+                        const NomerOwner = '6281333782061@s.whatsapp.net'//Nomer Owner
                         const isEventon = isGroup ? event.includes(from) : false
                         const isRegister = checkRegisteredUser(sender)
                         pushname = client.contacts[sender] != undefined ? client.contacts[sender].vname || client.contacts[sender].notify : undefined
