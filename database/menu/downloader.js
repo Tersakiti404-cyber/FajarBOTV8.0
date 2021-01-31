@@ -12,7 +12,7 @@ const downloader = (pushname, prefix, botName, ownerName) => {
 ║║╠➥ Registered: ✔️
 ║╚═══════════════════╝
 ║
-║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
+║═══°❀ ❬ *𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
 ║║╠➥ *${pushname}info*
@@ -48,15 +48,15 @@ const downloader = (pushname, prefix, botName, ownerName) => {
 ║╚═════════════════════════════╝
 ║➥ *JIKA MINAT IKLAN DIATAS*
 ║➥ *HARAP HUBUNGI NOMOR DIBAWAH :*
-║➥ *wa.me/6281368646011*
+║➥ *wa.me/081333782061*
 ║
 ║╔═════════════════════════════╗
 ║║╠➥ *DONASI BISA MELALUI :*
-║║╠➥ *PULSA/GOPAY : 081368646011*
-║║╠➥ *SAWERIA : https://saweria.co/darkbot2412*
+║║╠➥ *PULSA/GOPAY : 081333782061*
+║║╠➥ *DANA/OVO : 081333782061*
 ║║╠➥ *TERIMA KASIH BANYAK YANG SUDAH MAU DONASI*
 ║╚═════════════════════════════╝
 ║
-╚═〘 DARK BOT 〙`
+╚═〘 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 〙`
 }
 exports.downloader = downloader
