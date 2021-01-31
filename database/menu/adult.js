@@ -5,14 +5,14 @@ const adult = (pushname, prefix, botName, ownerName) => {
 ║╔═══════════════════╗
 ║║╠➥ Name : ${ownerName}
 ║║╠➥3.0
-║║╠➥ wa.me/6281368646011
+║║╠➥ wa.me/6281333782061
 ║║╠➥ Prefix: 「  ${pushname}  」
 ║║╠➥ Creator: ${botName}
 ║║╠➥ Name: ${prefix}
 ║║╠➥ Registered: ✔️
 ║╚═══════════════════╝
 ║
-║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
+║═══°❀ ❬ *𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
 ║║╠➥ *${pushname}info*
@@ -47,15 +47,15 @@ const adult = (pushname, prefix, botName, ownerName) => {
 ║╚═════════════════════════════╝
 ║➥ *JIKA MINAT IKLAN DIATAS*
 ║➥ *HARAP HUBUNGI NOMOR DIBAWAH :*
-║➥ *wa.me/6281368646011*
+║➥ *wa.me/6281333782061*
 ║
 ║╔═════════════════════════════╗
 ║║╠➥ *DONASI BISA MELALUI :*
-║║╠➥ *PULSA/GOPAY : 081368646011*
-║║╠➥ *SAWERIA : https://saweria.co/darkbot2412*
+║║╠➥ *PULSA/GOPAY : 6281333782061*
+║║╠➥ *DANA/OVO : 6281333782061*
 ║║╠➥ *TERIMA KASIH BANYAK YANG SUDAH MAU DONASI*
 ║╚═════════════════════════════╝
 ║
-╚═〘 DARK BOT 〙`
+╚═〘 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 〙`
 }
 exports.adult = adult
