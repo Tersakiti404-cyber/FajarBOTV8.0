@@ -97,7 +97,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'TEL;type=CELL;type=VOICE;waid=6281333782061:+62 813-3378-2061\n' // NOMER OWNER
             + 'END:VCARD'
 prefix = '#'//PREFIX BOT
-blocked = ['6283806369677']//NOMER BLOCK
+blocked = []//NOMER BLOCK
 limitawal = '50'
 cr = '*𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 WhatsApp*'
 
@@ -1303,12 +1303,12 @@ async function starts() {
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						buff = await client.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							client.sendMessage(_.jid, buff, image, {caption: `*[ DARK BROADCAST ]*\n\n${body.slice(4)}`})
+							client.sendMessage(_.jid, buff, image, {caption: `*[ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 BROADCAST ]*\n\n${body.slice(4)}`})
 						}
 						reply('')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `*[ DARK BROADCAST ]*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*[ 𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃 BROADCAST ]*\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}
