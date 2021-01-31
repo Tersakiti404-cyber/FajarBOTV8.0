@@ -415,8 +415,8 @@ async function starts() {
                         pushname = client.contacts[sender] != undefined ? client.contacts[sender].vname || client.contacts[sender].notify : undefined
 
                         // Options
-                        const botName = 'DARK BOT'//Nama Bot
-                        const ownerName = 'LOL~4NK34-EROR'//Nama Owner
+                        const botName = '𝙼𝚎𝚐𝚞𝚖𝚒𝚗 𝙱𝙾𝚃'//Nama Bot
+                        const ownerName = 'Fajar Alfarizi'//Nama Owner
                         const BarBarKey = 'YOUR_APIKEY'//Apikey Mhank Bar Bar
 
 			const isUrl = (url) => {
